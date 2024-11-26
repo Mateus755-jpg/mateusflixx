@@ -1,0 +1,60 @@
+body {
+    color: aliceblue;
+    background: black;
+    margin: 0px;
+    font-family: "Protest Revolution", sans-serif;
+}
+  
+
+
+header {
+    border-bottom: solid 2px rgb(83, 80, 80);
+    padding: 25px;
+    font-size: 45px;
+    color:aliceblue
+ }
+
+.chamada {
+    background: rgb(34, 104, 6);
+    padding-bottom: 90px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1{
+
+font-size: 30px;
+}
+
+p{
+
+font-size: 60px;
+}
+
+img{
+    height: 250px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+.categoria{
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.categoria-videos img {
+opacity: 0.4;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.5;
+    border:5px white
+}
